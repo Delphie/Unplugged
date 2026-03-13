@@ -349,7 +349,7 @@ input[type="button"] {
   }
 
   header .content-wrapper > a {
-    width: 30%;
+    width: 50%;
     max-width: none;
   }
 
@@ -360,6 +360,11 @@ input[type="button"] {
   header nav ul {
     justify-content: space-between;
   }
+
+  header nav ul li a {
+  display: inline-block;
+  padding: 0 15px;
+}
 
   .header-divider {
     display: none;
